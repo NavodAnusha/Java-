@@ -1,0 +1,24 @@
+2017-10-09 21:43:36.136 TRACE 7632 --- [ main]
+o.s.ws.client.MessageTracing.received : Received response [
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<ns2:StudentDetailsResponse xmlns:ns2="http://www.howtodoinjava.com/xml/school">
+			<ns2:Student>
+				<ns2:name>Sajal</ns2:name>
+				<ns2:standard>5</ns2:standard>
+				<ns2:address>Pune</ns2:address>
+			</ns2:Student>
+		</ns2:StudentDetailsResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+] for request [
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<ns2:StudentDetailsRequest xmlns:ns2="http://www.howtodoinjava.com/xml/school">
+			<ns2:name>Sajal</ns2:name>
+		</ns2:StudentDetailsRequest>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+]
